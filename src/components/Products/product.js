@@ -4,7 +4,7 @@ import style from './product.css'
 // import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Product = (props) => {
-    const {img, name, seller, price, stock} = props.product
+    const {img, name, seller, price, stock} = props.product;
     return (
         <div className='product'>
             <div>
